@@ -61,6 +61,9 @@ A simple URDF macro is included for adding the camera to your existing robot mod
 
 ![Omni 60 on Jackal](doc/omni_60-jackal.png)
 
+The 5 cameras are enumerated 0-4.  Camera 0 is directly opposite the micro-USB connector, and is along the +X axis
+in the URDF.  Cameras 1-4 are in order clockwise from camera 0.
+
 
 Future Work
 --------------
@@ -72,5 +75,4 @@ The to-do list includes:
 
 - add (or document the existing) configuration options
 - document all published & subscribed topics
-- double-check the order of the 5 cameras and match the URDF to that order
 - assign frame IDs to the raw data from each camera
