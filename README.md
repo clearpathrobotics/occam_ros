@@ -25,7 +25,7 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
 catkin_init_workspace src
 cd src
-git clone https://github.com/civerachb-cpr/occam_ros.git
+git clone https://github.com/clearpathrobotics/occam_ros.git
 rosdep install --from-paths . --ignore-src -r -y
 cd ..
 catkin_make
