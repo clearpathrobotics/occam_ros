@@ -6,7 +6,7 @@
         <geometry>
           <mesh filename="package://occam_ros/meshes/omni_60.stl" />
         </geometry>
-        <origin xyz="0 0 0" rpy="${pi/2} 0 -${pi/2}" />
+        <origin xyz="0 0 0" rpy="${3.141592653589793/2} 0 -${3.141592653589793/2}" />
         <material name="navy">
           <color rgba="0.1 0.1 0.7 1" />
         </material>
@@ -30,16 +30,16 @@
       <origin xyz="0 0 0.026" rpy="0 0 0" />
     </xacro:omni_sub_camera>
     <xacro:omni_sub_camera prefix="${name}_camera1" parent="${name}_base_link">
-      <origin xyz="0 0 0.026" rpy="0 0 -${2*pi/5}" />
+      <origin xyz="0 0 0.026" rpy="0 0 -${2*3.141592653589793/5}" />
     </xacro:omni_sub_camera>
     <xacro:omni_sub_camera prefix="${name}_camera2" parent="${name}_base_link">
-      <origin xyz="0 0 0.026" rpy="0 0 -${4*pi/5}" />
+      <origin xyz="0 0 0.026" rpy="0 0 -${4*3.141592653589793/5}" />
     </xacro:omni_sub_camera>
     <xacro:omni_sub_camera prefix="${name}_camera3" parent="${name}_base_link">
-      <origin xyz="0 0 0.026" rpy="0 0 ${4*pi/5}" />
+      <origin xyz="0 0 0.026" rpy="0 0 ${4*3.141592653589793/5}" />
     </xacro:omni_sub_camera>
     <xacro:omni_sub_camera prefix="${name}_camera4" parent="${name}_base_link">
-      <origin xyz="0 0 0.026" rpy="0 0 ${2*pi/5}" />
+      <origin xyz="0 0 0.026" rpy="0 0 ${2*3.141592653589793/5}" />
     </xacro:omni_sub_camera>
   </xacro:macro>
 </robot>
