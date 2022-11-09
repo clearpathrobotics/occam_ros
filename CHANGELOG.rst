@@ -2,8 +2,8 @@
 Changelog for package occam_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.6 (2022-11-09)
+------------------
 * Rename & reformat the changelog
 * Update the STL so the orientation is correct, remove the roll/yaw transformations in the URDF
 * Remove references to ${pi}, replace with the explicit number; pi is defined in the Jackal URDF, but doesn't exist on other platforms.
