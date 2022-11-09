@@ -25,7 +25,7 @@
       <xacro:insert_block name="origin" />
     </joint>
 
-    <include filename="$(find occam_ros)/urdf/include/omni_sub_camera.urdf.xacro" />
+    <xacro:include filename="$(find occam_ros)/urdf/include/omni_sub_camera.urdf.xacro" />
     <xacro:omni_sub_camera prefix="${name}_camera0" parent="${name}_base_link">
       <origin xyz="0 0 0.026" rpy="0 0 0" />
     </xacro:omni_sub_camera>
