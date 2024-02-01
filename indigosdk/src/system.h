@@ -26,6 +26,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #pragma once
 
+#include <stddef.h>
+
 #define OCCAM_CPU_NONE 0
 #define OCCAM_CPU_MMX 1
 #define OCCAM_CPU_SSE 2
@@ -114,4 +116,3 @@ template<typename _Tp> static inline _Tp* occamAlignPtr(_Tp* ptr, int n=(int)siz
 // Local Variables:
 // mode: c++
 // End:
-
