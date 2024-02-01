@@ -94,10 +94,8 @@ static const int INTER_TAB_SIZE2 = INTER_TAB_SIZE * INTER_TAB_SIZE;
 static float BilinearTab_f[INTER_TAB_SIZE2][2][2];
 static short BilinearTab_i[INTER_TAB_SIZE2][2][2];
 
-//#if OCCAM_SSE2 || OCCAM_NEON
 static short BilinearTab_iC4_buf[INTER_TAB_SIZE2+2][2][8];
 static short (*BilinearTab_iC4)[2][8] = (short (*)[2][8])occamAlignPtr(BilinearTab_iC4_buf, 16);
-//#endif
 
 #if OCCAM_SSE2
 
